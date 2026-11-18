@@ -5,45 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre o Curso de Desenvolvimento de Sistemas</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f4f4f9;
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        h1, h2 {
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #f9f9f9;
             color: #333;
         }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+
         p {
+            margin-bottom: 15px;
             color: #555;
         }
+
         ul {
-            margin: 10px 0;
-            padding: 0;
-            list-style: none;
+            margin: 15px 0;
+            padding-left: 20px;
         }
+
         ul li {
-            background: #ddd;
-            margin: 5px 0;
-            padding: 10px;
-            border-radius: 5px;
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #007BFF;
+            color: #fff;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Curso de Desenvolvimento de Sistemas</h1>
-    <p>O curso de Desenvolvimento de Sistemas é voltado para estudantes que desejam aprender a criar, desenvolver e manter sistemas computacionais, utilizando as mais modernas tecnologias do mercado.</p>
-    
-    <h2>O que você vai aprender:</h2>
-    <ul>
-        <li>Fundamentos de programação</li>
-        <li>Desenvolvimento web (HTML, CSS, JavaScript)</li>
-        <li>Banco de dados</li>
-        <li>Desenvolvimento de aplicativos</li>
-        <li>Metodologias ágeis</li>
-    </ul>
-
-    <h2>Por que escolher este curso?</h2>
-    <p>O curso oferece uma abordagem prática e teórica, preparando os alunos para os desafios do mercado de trabalho na área de tecnologia da informação.</p>
+    <header>
+        <h1>Curso de Desenvolvimento de Sistemas</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Sobre o Curso</h2>
+            <p>O curso de Desenvolvimento de Sistemas é projetado para capacitar estudantes com habilidades práticas e teóricas para criar, desenvolver e manter sistemas computacionais modernos.</p>
+        </section>
+        <section>
+            <h2>O que você vai aprender</h2>
+            <ul>
+                <li>Fundamentos de programação</li>
+                <li>Desenvolvimento web (HTML, CSS, JavaScript)</li>
+                <li>Banco de dados e SQL</li>
+                <li>Desenvolvimento de aplicativos móveis</li>
+                <li>Metodologias ágeis e trabalho em equipe</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Por que escolher este curso?</h2>
+            <p>Com uma abordagem prática e alinhada às demandas do mercado, o curso prepara os alunos para atuar em diversas áreas da tecnologia da informação, garantindo uma formação completa e atualizada.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Curso de Desenvolvimento de Sistemas. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
